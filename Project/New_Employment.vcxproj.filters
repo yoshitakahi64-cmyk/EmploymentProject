@@ -1,0 +1,618 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sorce">
+      <UniqueIdentifier>{491d04d7-5996-4494-b13a-4ba9f7f2afd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Camera">
+      <UniqueIdentifier>{23e780ed-58d7-41a4-b1a7-ae605fa4f4d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Collision">
+      <UniqueIdentifier>{4c0ed79b-cc2e-4fa1-ac99-e59b08b2ebbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\FPS">
+      <UniqueIdentifier>{535ca581-0701-4234-8286-c26e3a33dc36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\GameController">
+      <UniqueIdentifier>{bc3d29f1-8b5e-4d62-902f-fbccfe8bc9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\GameObject">
+      <UniqueIdentifier>{d1051736-008f-4ed4-acdd-0d0574a73a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Input">
+      <UniqueIdentifier>{2868e068-62b9-4919-b6d0-f8355d35476f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\MyEffekseer">
+      <UniqueIdentifier>{6ca4024b-eaf4-48a7-8b6c-dee34ccf60d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\MyMath">
+      <UniqueIdentifier>{e3af4c9e-e4a8-49d8-89c8-1661caf22f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Resorce">
+      <UniqueIdentifier>{61283a89-3678-4c03-898d-994728c69bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Scene">
+      <UniqueIdentifier>{e09ae653-6848-4364-92eb-4ad2ec57502a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Player">
+      <UniqueIdentifier>{d36b011e-c820-43d5-a34a-451b0f6a0604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\TestStage">
+      <UniqueIdentifier>{2ceb4865-684d-4887-a109-645880ce48a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Quatrenion">
+      <UniqueIdentifier>{2a876b16-3d4b-4766-bb1b-89d1d47bb2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Enemy">
+      <UniqueIdentifier>{d0c0908a-a422-48ff-8126-775a1577357c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Bullet">
+      <UniqueIdentifier>{e81add5c-b549-4fca-b1e6-6d390bd88309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Shot">
+      <UniqueIdentifier>{7aa4d63c-3e97-4df0-80db-cd1e8f0a95d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\StageObject">
+      <UniqueIdentifier>{329cb26a-c8ac-4d1d-96cb-bbcbda8e9239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Gimmick">
+      <UniqueIdentifier>{4ed991a4-6bc1-4c2c-952f-e1c96c3659be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Mechanism">
+      <UniqueIdentifier>{1db3c3a1-e12a-4dd1-9706-aac95095e0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\GimmickDrivein">
+      <UniqueIdentifier>{f8137f4e-e5fd-4577-9b46-e54380a117f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\PullObject">
+      <UniqueIdentifier>{88ed9a3a-e3fc-42e8-8793-8c9bfbf50d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Sound">
+      <UniqueIdentifier>{9b46e329-33be-4fd1-9c5e-de20a25043e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Target">
+      <UniqueIdentifier>{cc43e45a-5572-4f11-9b2c-651138a699f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Library">
+      <UniqueIdentifier>{bf725494-c948-473c-b2cd-67233eb28eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Library\json">
+      <UniqueIdentifier>{b1ed643b-d601-45dd-a1db-1b706cbbf264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Stage">
+      <UniqueIdentifier>{096a5596-8ccc-4d5c-8e1f-5002743f886c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\UI">
+      <UniqueIdentifier>{816784ce-9b53-4fa7-b498-cd7d8ef756ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Score">
+      <UniqueIdentifier>{6f5aa22b-c680-4406-8299-865cff7594cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\Font">
+      <UniqueIdentifier>{4bc448ad-5c61-487f-871c-1997414a3cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sorce\ShadowMap">
+      <UniqueIdentifier>{6300b775-ec70-4dbb-a3fc-15e86a4eb413}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sorce\Main.cpp">
+      <Filter>Sorce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Collision\CollisionAABB.cpp">
+      <Filter>Sorce\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Collision\CollisionManager.cpp">
+      <Filter>Sorce\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Collision\CollisionSphere.cpp">
+      <Filter>Sorce\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\FPS\FPS.cpp">
+      <Filter>Sorce\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\GameObject\2DGameObject.cpp">
+      <Filter>Sorce\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\GameObject\3DGameObject.cpp">
+      <Filter>Sorce\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\GameObject\GameObject.cpp">
+      <Filter>Sorce\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\GameController\GameController.cpp">
+      <Filter>Sorce\GameController</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Input\Input.cpp">
+      <Filter>Sorce\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\MyEffekseer\EffekseerEffect.cpp">
+      <Filter>Sorce\MyEffekseer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\MyEffekseer\EffekseerManager.cpp">
+      <Filter>Sorce\MyEffekseer</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\MyMath\MyMath.cpp">
+      <Filter>Sorce\MyMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Resource\ImageResource.cpp">
+      <Filter>Sorce\Resorce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Resource\ModelResource.cpp">
+      <Filter>Sorce\Resorce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Resource\MyResource.cpp">
+      <Filter>Sorce\Resorce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Resource\MyResourceManager.cpp">
+      <Filter>Sorce\Resorce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Resource\SoundResource.cpp">
+      <Filter>Sorce\Resorce</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Scene\GameClear.cpp">
+      <Filter>Sorce\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Scene\GameOverScene.cpp">
+      <Filter>Sorce\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Scene\LoadingScene.cpp">
+      <Filter>Sorce\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Scene\PlayScene.cpp">
+      <Filter>Sorce\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Scene\PlaySelect.cpp">
+      <Filter>Sorce\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Scene\SceneBase.cpp">
+      <Filter>Sorce\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Scene\SceneManager.cpp">
+      <Filter>Sorce\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Scene\TitleScene.cpp">
+      <Filter>Sorce\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Player\Player.cpp">
+      <Filter>Sorce\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Player\PlayerManager.cpp">
+      <Filter>Sorce\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\TestStage\TestStage.cpp">
+      <Filter>Sorce\TestStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\TestStage\TestStageManager.cpp">
+      <Filter>Sorce\TestStage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Collision\Capsule.cpp">
+      <Filter>Sorce\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Quatrenion\Quatrenion.cpp">
+      <Filter>Sorce\Quatrenion</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Enemy\EnemyManager.cpp">
+      <Filter>Sorce\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Enemy\RushEnemy.cpp">
+      <Filter>Sorce\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Collision\CollisionStage.cpp">
+      <Filter>Sorce\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Bullet\Bullet.cpp">
+      <Filter>Sorce\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Bullet\BulletManager.cpp">
+      <Filter>Sorce\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Enemy\ShotEnemy.cpp">
+      <Filter>Sorce\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\StageObject\StageObject.cpp">
+      <Filter>Sorce\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\StageObject\WoodBox.cpp">
+      <Filter>Sorce\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\StageObject\StageObjectManager.cpp">
+      <Filter>Sorce\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\StageObject\MoveWater.cpp">
+      <Filter>Sorce\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Gimmick\Button.cpp">
+      <Filter>Sorce\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Gimmick\Gimmick.cpp">
+      <Filter>Sorce\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Gimmick\GimmickManager.cpp">
+      <Filter>Sorce\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Gimmick\Pulley.cpp">
+      <Filter>Sorce\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Mechanism\IDManager.cpp">
+      <Filter>Sorce\Mechanism</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\GimmickDriven\Door.cpp">
+      <Filter>Sorce\GimmickDrivein</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Collision\CollisionBase.cpp">
+      <Filter>Sorce\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Mechanism\DoorMechanism.cpp">
+      <Filter>Sorce\Mechanism</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Mechanism\PullObjectMechanism.cpp">
+      <Filter>Sorce\Mechanism</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\PullObject\Ball.cpp">
+      <Filter>Sorce\PullObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\PullObject\PullObjectBase.cpp">
+      <Filter>Sorce\PullObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\PullObject\PullObjectManager.cpp">
+      <Filter>Sorce\PullObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Sound\SoundManager.cpp">
+      <Filter>Sorce\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Shot\Shot.cpp">
+      <Filter>Sorce\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Target\Target.cpp">
+      <Filter>Sorce\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Target\TargetManager.cpp">
+      <Filter>Sorce\Target</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Camera\Camera.cpp">
+      <Filter>Sorce\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Camera\DebugCamera.cpp">
+      <Filter>Sorce\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Camera\NormalCamera.cpp">
+      <Filter>Sorce\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Camera\TargetCamera.cpp">
+      <Filter>Sorce\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Camera\CameraManager.cpp">
+      <Filter>Sorce\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Stage\StageManager.cpp">
+      <Filter>Sorce\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\StageObject\Goal.cpp">
+      <Filter>Sorce\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Enemy\Enemy.cpp">
+      <Filter>Sorce\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Camera\ShotCamera.cpp">
+      <Filter>Sorce\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\UI\UIBase.cpp">
+      <Filter>Sorce\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\UI\UIManager.cpp">
+      <Filter>Sorce\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\UI\UIHP.cpp">
+      <Filter>Sorce\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Bullet\EnemyBullet.cpp">
+      <Filter>Sorce\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Bullet\PlayerBullet.cpp">
+      <Filter>Sorce\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Score\Score.cpp">
+      <Filter>Sorce\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Score\ScoreManager.cpp">
+      <Filter>Sorce\Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\UI\UIScore.cpp">
+      <Filter>Sorce\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\Font\FontManager.cpp">
+      <Filter>Sorce\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\UI\UIManual.cpp">
+      <Filter>Sorce\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\StageObject\DoorOpen.cpp">
+      <Filter>Sorce\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\UI\UIEnemyHP.cpp">
+      <Filter>Sorce\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\UI\UIBase3D.cpp">
+      <Filter>Sorce\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Sorce\ShadowMap\ShadowMap.cpp">
+      <Filter>Sorce\ShadowMap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sorce\Collision\CollisionAABB.h">
+      <Filter>Sorce\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Collision\CollisionManager.h">
+      <Filter>Sorce\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Collision\CollisionSphere.h">
+      <Filter>Sorce\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\FPS\FPS.h">
+      <Filter>Sorce\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\GameObject\2DGameObject.h">
+      <Filter>Sorce\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\GameObject\3DGameObject.h">
+      <Filter>Sorce\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\GameObject\GameObject.h">
+      <Filter>Sorce\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\GameObject\Transform.h">
+      <Filter>Sorce\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\GameController\GameController.h">
+      <Filter>Sorce\GameController</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\MyEffekseer\EffekseerEffect.h">
+      <Filter>Sorce\MyEffekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\MyEffekseer\EffekseerManager.h">
+      <Filter>Sorce\MyEffekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\MyEffekseer\EffekseerParam.h">
+      <Filter>Sorce\MyEffekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\MyMath\MyMath.h">
+      <Filter>Sorce\MyMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Resource\ImageResource.h">
+      <Filter>Sorce\Resorce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Resource\ModelResource.h">
+      <Filter>Sorce\Resorce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Resource\MyResource.h">
+      <Filter>Sorce\Resorce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Resource\MyResourceManager.h">
+      <Filter>Sorce\Resorce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Resource\SoundResource.h">
+      <Filter>Sorce\Resorce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\GameClear.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\GameOverScene.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\LoadingScene.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\PlayScene.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\PlaySelect.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\SceneBase.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\SceneManager.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\SceneParameter.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Scene\TitleScene.h">
+      <Filter>Sorce\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Singleton.h">
+      <Filter>Sorce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Player\Player.h">
+      <Filter>Sorce\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Player\PlayerManager.h">
+      <Filter>Sorce\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\TestStage\TestStage.h">
+      <Filter>Sorce\TestStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\TestStage\TestStageManager.h">
+      <Filter>Sorce\TestStage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Collision\Capsule.h">
+      <Filter>Sorce\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Input\Input.h">
+      <Filter>Sorce\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Quatrenion\Quatrenion.h">
+      <Filter>Sorce\Quatrenion</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Enemy\Enemy.h">
+      <Filter>Sorce\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Enemy\EnemyManager.h">
+      <Filter>Sorce\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Enemy\RushEnemy.h">
+      <Filter>Sorce\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Memory.h">
+      <Filter>Sorce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Collision\CollisionStage.h">
+      <Filter>Sorce\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Bullet\Bullet.h">
+      <Filter>Sorce\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Bullet\BulletManager.h">
+      <Filter>Sorce\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Shot\Shot.h">
+      <Filter>Sorce\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Enemy\ShotEnemy.h">
+      <Filter>Sorce\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\StageObject\WoodBox.h">
+      <Filter>Sorce\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\StageObject\StageObject.h">
+      <Filter>Sorce\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\StageObject\StageObjectManager.h">
+      <Filter>Sorce\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Collision\CollisionBase.h">
+      <Filter>Sorce\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\StageObject\MoveWater.h">
+      <Filter>Sorce\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Container.h">
+      <Filter>Sorce</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Gimmick\Button.h">
+      <Filter>Sorce\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Gimmick\Gimmick.h">
+      <Filter>Sorce\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Gimmick\GimmickManager.h">
+      <Filter>Sorce\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Gimmick\Pulley.h">
+      <Filter>Sorce\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Mechanism\MechanismBase.h">
+      <Filter>Sorce\Mechanism</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Mechanism\IDManager.h">
+      <Filter>Sorce\Mechanism</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\GimmickDriven\Door.h">
+      <Filter>Sorce\GimmickDrivein</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Mechanism\DoorMechanism.h">
+      <Filter>Sorce\Mechanism</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Mechanism\PullObjectMechanism.h">
+      <Filter>Sorce\Mechanism</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\PullObject\Ball.h">
+      <Filter>Sorce\PullObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\PullObject\PullObjectBase.h">
+      <Filter>Sorce\PullObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\PullObject\PullObjectManager.h">
+      <Filter>Sorce\PullObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Sound\SoundManager.h">
+      <Filter>Sorce\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Target\Target.h">
+      <Filter>Sorce\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Target\TargetManager.h">
+      <Filter>Sorce\Target</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Camera\Camera.h">
+      <Filter>Sorce\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Camera\DebugCamera.h">
+      <Filter>Sorce\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Camera\NormalCamera.h">
+      <Filter>Sorce\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Camera\TargetCamera.h">
+      <Filter>Sorce\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Camera\CameraManager.h">
+      <Filter>Sorce\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Library\json\json.hpp">
+      <Filter>Sorce\Library\json</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Stage\StageManager.h">
+      <Filter>Sorce\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Stage\StageParam.h">
+      <Filter>Sorce\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\StageObject\Goal.h">
+      <Filter>Sorce\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Camera\ShotCamera.h">
+      <Filter>Sorce\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\UI\UIBase.h">
+      <Filter>Sorce\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\UI\UIManager.h">
+      <Filter>Sorce\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\UI\UIParameter.h">
+      <Filter>Sorce\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\UI\UIHP.h">
+      <Filter>Sorce\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Bullet\EnemyBullet.h">
+      <Filter>Sorce\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Bullet\PlayerBullet.h">
+      <Filter>Sorce\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Score\Score.h">
+      <Filter>Sorce\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Score\ScoreManager.h">
+      <Filter>Sorce\Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\UI\UIScore.h">
+      <Filter>Sorce\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Font\FontParam.h">
+      <Filter>Sorce\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\Font\FontManager.h">
+      <Filter>Sorce\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\UI\UIManual.h">
+      <Filter>Sorce\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\StageObject\DoorOpen.h">
+      <Filter>Sorce\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\UI\UIEnemyHP.h">
+      <Filter>Sorce\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\UI\UIBase3D.h">
+      <Filter>Sorce\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorce\ShadowMap\ShadowMap.h">
+      <Filter>Sorce\ShadowMap</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+﻿#pragma once
+#include "SceneBase.h"
+
+// タイトルシーンクラス
+class TitleScene : public SceneBase
+{
+public:
+	TitleScene(); // コンストラクタ
+	~TitleScene(); // デストラクタ
+
+public:
+	void Init() override; // 初期化関数
+	void Load() override; // ロード関数
+	void Start() override; // スタート関数
+	void Step() override; // ステップ関数
+	void Update() override; // 更新関数
+	void Draw() override; // 描画関数
+	void Fin() override; // 終了関数
+
+private:
+	// 画像ハンドル
+	int m_Handle;
+	// タイトルテキストの点滅用のカウンター
+	int m_TextActiveCounter;
+	bool m_IsTextActive;
+};
